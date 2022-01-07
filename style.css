@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    display: flex;
+    margin: auto;
+  }
+
+  header {
+    display: flex;
+    position: absolute;
+    color: hsl(234, 100%, 69%);
+    width: 80%;
+    margin: 20px;
+  }
+
+  .logo {
+    font: 'poppins';
+    font-size: 25px;
+  }
+
+  .hamburger {
+    color: #172bdb;
+    width: 55px;
+    height: 90px;
+  }
+
+  h2 {
+    width: 320px;
+    height: 120px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .headline {
+    background-image: url("images/header-shapes-mobile.png");
+    height: 600px;
+    margin-top: 70px;
+    padding: 60px 20px;
+  }
+
+  .about-my-self {
+    width: 320px;
+    height: 150px;
+  }
+
+  .contacts {
+    margin-top: 30px;
+  }
+}
