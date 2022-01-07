@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    margin: 50px auto;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    display: flex;
+    color: hsl(234, 100%, 69%);
+    width: 85%;
+    margin: 20px;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  ul > li > a {
+    color: #505f79;
+    margin: 10px;
+  }
+
+  section > h1,
+  h2 {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .logo {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .headline {
+    background-image: url("images/header-shapes-mobile.png");
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+
+  .about-my-self {
+    width: 95%;
+    font-weight: normal;
+    font-size: large;
+    color: #344563;
+  }
+
+  .contact {
+    text-decoration: none;
+    color: #7f8cff;
+  }
+
+  .social-media {
+    display: flex;
+    margin-left: -50px;
+  }
+}
