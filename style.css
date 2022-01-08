@@ -219,13 +219,8 @@
     padding: 10px;
   }
 
-
   .categories > li > a > i {
     color: #acb7c3;
-  }
-
-  .languages {
-    display: grid;
   }
 
   .horizontal-line {
