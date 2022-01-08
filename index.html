@@ -3,45 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
 </head>
+
 <body>
     <main>
+        <!-- The Header which includes the logo and hamburger menu -->
         <header>
-            <h2 class="logo">My Logo</h2>
-            <img class="hamburger" src="images/hamburger-menu.png" alt="hamburger menu" width=60>
+            <a class="logo">My Logo</a>
+            <nav>
+                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+            </nav>
         </header>
-        
+        <!-- The Headline section that contains a description of the author -->
         <section class="headline">
-            <h2>I am Jerry <br> Glad to see you!</h2>
+                <h1>I'm Jerry </h1>
+                <h2>Glad to see <br> you!</h2>
             <p class="about-my-self">I’m a software developer! I can help you build a product ,
                  feature or website Look through some of my work and 
                  experience! If you like what you see and have a project
                   you need coded, don’t hestiate to contact me.</p>
-        
-        
-            <a href="#contacts">LET'S CONNECT</a>
+                <!-- Contacts -->
+             <a class="contact" href="#contacts">LET'S CONNECT</a>
+            <!-- Social media links -->
+            <ul class="social-media">
+                <li><a href="https://twitter.com/jerryowusu11"></i>
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="https://linkedin.com/in/jeremiahowusu">
+                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="https://medium.com/jerryowusu">
+                    <i class="fa fa-medium fa-lg" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="https://github.com/jerryowusu">
+                    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="https://angellist.com/jerryowusu">
+                    <i class="fa fa-angellist fa-lg" aria-hidden="true"></i>
+                </a></li>
+            </ul>      
 
-            <div class="contacts">
-                <a href="">
-                    <img src="images/twitter.svg" alt="twitter" width=20>
-                </a>
-                <a href="">
-                    <img src="images/linkedin-i.png" alt="linkedin" width=8>
-                    <img src="images/linkedin-n.png" alt="linkedin" width=15>                  
-                </a>
-                <a href="">
-                    <img src="images/m.svg" alt="microverse" width=25>
-                </a>
-                <a href="">
-                    <img src="images/github.svg" alt="github" width=20>
-                </a>
-                <a href="">
-                    <img src="images/two-finger.svg" alt="two-finger" width=20>
-                </a>
-            </div>
         </section>
     </main>
 </body>
