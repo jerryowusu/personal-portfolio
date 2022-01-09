@@ -193,18 +193,16 @@
     text-align: center;
   }
 
-
   .category {
     display: flex;
     width: 237px;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    background-color: #FFFFFF;
+    background-color: #fff;
     align-items: center;
     margin: 20px;
     justify-content: space-between;
-
   }
 
   .categories {
@@ -214,7 +212,8 @@
   .angle-arrow {
     width: 12px;
     height: 6px;
-    color: #ACB7C3;
+    color: #acb7c3;
+
     /* margin-left: 100px; */
   }
 
@@ -223,13 +222,12 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 12px;
-
   }
 
   .language {
     width: 303px;
     height: 66.7px;
-    background-color: #F7F7F9;
+    background-color: #f7f7f9;
     border-radius: 8px;
     margin: 12px 0;
     margin-left: -20px;
@@ -240,7 +238,4 @@
     padding: 10px 0 0 10px;
     vertical-align: middle;
   }
-
-
-
 }
