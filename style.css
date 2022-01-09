@@ -36,6 +36,28 @@
     font-size: 40px;
   }
 
+ 
+  .button:hover {
+    color:#FFFFFF;
+    background-color: #6070FF;
+  }
+
+  .button:pressed {
+    color: #FFFFFF;
+    background-color: #2230D2;
+
+  }
+  .button:disabled {
+    color:  #5E6C84;
+    background-color: #E5E5E5;
+  }
+
+  .button:enabled {
+    color: #6070FF;
+    background-color: #FFFFFF;
+  }
+
+
   .logo {
     font-size: 18px;
     font-weight: normal;
@@ -214,7 +236,6 @@
     height: 6px;
     color: #acb7c3;
 
-    /* margin-left: 100px; */
   }
 
   .languages {
@@ -238,4 +259,10 @@
     padding: 10px 0 0 10px;
     vertical-align: middle;
   }
+  hr {
+    width: 327px;
+    height: 1px;
+    background-color: #DFE1E6;
+  }
+  
 }
