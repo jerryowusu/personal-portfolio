@@ -257,9 +257,10 @@
     vertical-align: middle;
   }
 
-  hr {
+  .horizontal-line {
     width: 327px;
-    height: 1px;
-    background-color: #dfe1e6;
+    border-bottom: 1px solid #dfe1e6;
+    padding-bottom: 20px;
+    
   }
 }
