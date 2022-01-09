@@ -36,27 +36,38 @@
     font-size: 40px;
   }
 
- 
+  .button {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    padding: 5px 8px;
+    text-align: center;
+    color: #396df2;
+    background-color: #fff;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+  }
+
   .button:hover {
-    color:#FFFFFF;
-    background-color: #6070FF;
+    color: #fff;
+    background-color: #6070ff;
   }
 
-  .button:pressed {
-    color: #FFFFFF;
-    background-color: #2230D2;
-
+  .button:active {
+    color: #fff;
+    background-color: #2230d2;
   }
+
   .button:disabled {
-    color:  #5E6C84;
-    background-color: #E5E5E5;
+    color: #5e6c84;
+    background-color: #e5e5e5;
   }
 
   .button:enabled {
-    color: #6070FF;
-    background-color: #FFFFFF;
+    color: #6070ff;
+    background-color: #fff;
   }
-
 
   .logo {
     font-size: 18px;
@@ -165,19 +176,6 @@
     font-size: 30px;
   }
 
-  .button {
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 35px;
-    letter-spacing: 0.03em;
-    padding: 5px 8px;
-    text-align: center;
-    color: #396df2;
-    background-color: #fff;
-    border: 1px solid #396df2;
-    border-radius: 8px;
-  }
-
   .description {
     font-size: 15px;
     line-height: 24px;
@@ -235,7 +233,6 @@
     width: 12px;
     height: 6px;
     color: #acb7c3;
-
   }
 
   .languages {
@@ -259,10 +256,10 @@
     padding: 10px 0 0 10px;
     vertical-align: middle;
   }
+
   hr {
     width: 327px;
     height: 1px;
-    background-color: #DFE1E6;
+    background-color: #dfe1e6;
   }
-  
 }
