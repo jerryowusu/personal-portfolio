@@ -12,7 +12,6 @@ body {
 header {
   width: 375px;
   background-color: white;
-  width: 375px;
   height: 718px;
   border-bottom-left-radius: 80px;
   grid-area: header;
@@ -289,7 +288,6 @@ ul > li > i {
   width: 375px;
   display: flex;
   flex-direction: column;
-  width: 375px;
   height: 779px;
   margin-top: -200px;
   border-top-left-radius: 100px;
