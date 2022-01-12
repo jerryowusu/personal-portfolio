@@ -216,7 +216,7 @@ ul > li > i {
   height: 900px;
   background-color: #fff;
   border-top-right-radius: 70px;
-  padding: 100px 0 10px 0;
+  padding: 100px 0 10px 10px;
 }
 
 .about-myself-title {
