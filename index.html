@@ -14,49 +14,38 @@
 </head>
 <body>
  <main>
-     <div class="header-container">
-         <header>
-                <a class="logo">My Logo</a>
-                <nav>
-                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-                </nav>
-         </header>
-         <section class="headline">
-            <h2>I'm Jerry <br> Glad to see <br> you!</h2>
-            <p class="my-profile">I’m a software developer! I can help you build a product ,
+     <header>
+       <nav>
+         <a class="logo">My Logo</a>
+         <img src="images/sandwich.svg" alt="">
+        </nav>
+       <section class="headline">
+            <h1>I'm Jerry <br> Glad to see <br> you!</h1>
+            <p class="presentation">I’m a software developer! I can help you build a product ,
                 feature or website Look through some of my work and
                 experience! If you like what you see and have a project
-                you need coded, don’t hestiate to contact me.</p>
-            <a class="contact" href="#contacts">LET'S CONNECT</a>
+                you need coded, don’t hesitate to contact me.</p>
+            <a class="connect" href="#contacts">LET'S CONNECT</a>
             <ul class="social-media">
-              <li>
-                <a href="https://twitter.com/jerryowusu11">
-                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-                </a>
+              <li class="flex-icons">
+                <a href=""><img src="images/twitter.svg" alt=""></a>
               </li>
-              <li>
-                <a href="https://linkedin.com/in/jeremiahowusu">
-                <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-                </a>
+              <li class="flex-icons">
+                <a href=""><img src="images/Linkedin-icon.svg" alt=""></a>
               </li>
-              <li>
-                 <a href="https://medium.com/jerryowusu">
-                 <i class="fa fa-medium fa-lg" aria-hidden="true"></i>
-                 </a>
+              <li class="flex-icons">
+                 <a href=""><img src="images/medium.svg" alt=""></a>
               </li>
-              <li>
-                  <a href="https://github.com/jerryowusu">
-                  <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-                  </a>
+              <li class="flex-icons">
+                  <a href=""><img src="images/github.svg" alt=""></a>
               </li>
-              <li>
-                  <a href="https://angellist.com/jerryowusu">
-                  <i class="fa fa-angellist fa-lg" aria-hidden="true"></i>
-                  </a>
+              <li class="flex-icons">
+                  <a href=""><img src="images/angellist.svg" alt=""></a>
               </li>
             </ul>
-          </section>
-     </div>
+       </section>
+     </header>
+
      <div class="works">
         <section class="work-card"> 
                 <img class="profile-image" src="images/tanne-chris.png" alt="portfolio snapshot" width="295"
@@ -152,58 +141,68 @@
                 Hello I’m a software developer! I can help you build a product ,
                 feature or website Look through some of my work and experience!
                 If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.
+                don’t hesitate to contact me.
             </p>
             <a class="contact" href="#contacts">LET'S CONNECT</a>
             <ul class="social-media">
-                <li><a href="https://github.com/jerryowusu">
-                        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                <li class="flex-icons"><a href="https://github.com/jerryowusu">
+                        <img src="images/github.svg" class="flex-icons" >
                     </a></li>
-                <li><a href="https://linkedin.com/in/jeremiahowusu">
-                        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                <li class="flex-icons"><a href="https://linkedin.com/in/jeremiahowusu">
+                        <img src="images/Linkedin-icon.svg" class="flex-icons" >
                     </a></li>
-                <li><a href="https://angellist.com/jerryowusu">
-                        <i class="fa fa-angellist fa-lg" aria-hidden="true"></i>
+                <li class="flex-icons"><a href="https://angellist.com/jerryowusu">
+                        <img src="images/angellist.svg" class="flex-icons" >
                     </a></li>
-                <li><a href="https://twitter.com/jerryowusu11">
-                        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                <li class="flex-icons"><a href="https://twitter.com/jerryowusu11">
+                        <img src="images/twitter.svg" class="flex-icons" >
                     </a></li>
-                <li><a href="https://medium.com/jerryowusu">
-                        <i class="fa fa-medium fa-lg" aria-hidden="true"></i>
+                <li class="flex-icons"><a href="https://medium.com/jerryowusu">
+                        <img src="images/medium.svg" class="flex-icons" >
                     </a></li>
             </ul>
-            <button class="button resume" type="button">Get my resume</button>         
-              <ul class="categories">
-                  <li class="tech-languages category">
-                      Languages                 
-                     <i class="fa fa-angle-down fa-lg angle-arrow" aria-hidden="true"></i>                                                              
-                  </li>
-                 <li> <ul class="languages">
-                    <li class="language" >
-                        <img class="language-image" src="images/js.png" alt="JS"> 
-                        JavaScript
-                    </li>
-
-                    <li  class="language" >
-                        <img class="language-image" src="images/html.png" alt="HTML">
-                         HTML 
-                    </li  >
-                    <li class="language">
-                        <img class="language-image" src="images/css.png" alt="CSS">
-                         CSS
-                    </li>
-                </ul></li>
-                  <li class="horizontal-line category">
-                      Frameworks
-                      <i class="fa fa-angle-right fa-lg angle-arrow" aria-hidden="true"></i>
-                   </li>
-                  <li class="horizontal-line category">
-                      Skills
-                      <i class="fa fa-angle-right fa-lg angle-arrow" aria-hidden="true"></i>
-                    </li>
-                </ul>          
-     </section>    
-        <section class="contact-me">           
+            <button class="button resume" type="button">Get my resume</button>                  
+    <div class="skill-list">
+        <details class="frame">
+            <summary class="frame-summary">Languages</summary>
+            <div class="summary-list">
+                <img src="images/js-lang.svg" alt="">
+                <img src="images/html-lang.svg" alt="">
+                <img src="images/css-lang.svg" alt="">
+            </div>
+        </details>
+        <details class="frame">
+            <summary class="frame-summary">Frameworks</summary>
+        </details>
+        <details class="frame">
+            <summary class="frame-summary">Skills</summary>
+        </details>
+    </div>
+    </section> 
+    <div class="footer-background-shapes">
+        <img
+          class="ellipse-3-footer"
+          src="images/Ellipse-3-footer.svg"
+          alt=""
+        /><img
+          class="ellipse-5-footer"
+          src="images/Ellipse-5-footer.svg"
+          alt=""
+        /><img
+          class="ellipse-12-footer"
+          src="images/Ellipse-12-footer.svg"
+          alt=""
+        /><img
+          class="rect-4-footer"
+          src="images/Rectangle-4-footer.svg"
+          alt=""
+        /><img
+          class="rect-7-footer"
+          src="images/Rectangle-7-footer.svg"
+          alt=""
+        />
+      </div>   
+     <section class="contact-me">           
           <h2>Contact me</h2>
           <p class="form-text">
                If you have an application you are interested in developing,
@@ -228,7 +227,7 @@
               <button class="button form-button" type="submit">Get In Touch</button> 
               <img class="homepage-indicator" src="images/home-indicator.png" alt="">                                 
             </form>
-        </section>
+     </section>
     </main>
 </body>
 
