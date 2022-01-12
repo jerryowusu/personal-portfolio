@@ -49,7 +49,6 @@
     border-radius: 8px;
   }
 
-  /* Button States */
   button:hover {
     background-color: #6070ff;
     color: white;
@@ -259,8 +258,9 @@
     padding-bottom: 20px;
   }
 
-  /* contact me */
   .contact-me {
+    display: flex;
+    flex-direction: column;
     width: 375px;
     height: 779px;
     position: absolute;
