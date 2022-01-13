@@ -1,3 +1,49 @@
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+/* main {
+    margin: 50px auto;
+  } */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "works"
+    "footer";
+}
+
+header {
+  background-color: white;
+  height: 718px;
+  border-bottom-left-radius: 80px;
+  grid-area: header;
+  height: 718px;
+  margin-bottom: 114px;
+  background-repeat: no-repeat;
+}
+
+nav {
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 36px;
+  display: flex;
+  align-items: center;
+
+  /* list-style: none; */
+  height: 48px;
+}
+
+nav img {
+  display: block;
+}
+
+=======
+>>>>>>> 46686bb06cb8e29269486ac5b94ca2b709494e9f
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -32,6 +78,7 @@ nav img {
   display: block;
 }
 
+>>>>>>> 9c701a05233470f439e4fc621e813981f900b0c3
 li {
   list-style-type: none;
 }
@@ -209,14 +256,21 @@ ul > li > i {
 }
 
 .about-myself {
+<<<<<<< HEAD
+=======
   width: 375px;
+>>>>>>> 9c701a05233470f439e4fc621e813981f900b0c3
   display: flex;
   flex-direction: column;
   margin: 50px 0 24px 0;
   height: 900px;
   background-color: #fff;
   border-top-right-radius: 70px;
+<<<<<<< HEAD
+  padding: 100px 20px 20px 20px;
+=======
   padding: 100px 0 20px 10px;
+>>>>>>> 9c701a05233470f439e4fc621e813981f900b0c3
 }
 
 .about-myself-title {
