@@ -289,7 +289,7 @@ ul > li > i {
   display: flex;
   flex-direction: column;
   height: 779px;
-  margin-top: -200px;
+  margin-top: -150px;
   border-top-left-radius: 100px;
   background-color: #6070ff;
 }
