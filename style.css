@@ -683,5 +683,153 @@ ul > li > i {
   background-repeat: no-repeat;
 } */
 
+.contact-me {
+  width: 1440px;
+  height: 846px;
+  background-color: #6070ff;
+}
+
+.contact-me h2 {
+  width: 801px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-items: center;
+  margin: 10px 320px 0 320px;
+}
+
+.contact-me p  {
+  width: 569px;
+  height: 102px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 12px 435px 12px 436px;
+}
+
+ #name {
+   width: 447px;
+   height: 48px;
+   display: block;
+   margin: 12px 496px 0 496px;
+   color: #172b4d;
+  font-size: 17px;
+  background-color: #fff;
+  line-height: 20px;
+ }
+
+ #email {
+  width: 447px;
+  height: 48px;
+  display: block;
+  margin: 12px 496px 0 496px;
+  color: #172b4d;
+  font-size: 17px;
+  line-height: 20px;
+  background-color: #fff;
+ }
+
+ #msg {
+  width: 447px;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  margin: 12px 496px 0 496px;
+
+ }
+
+ 
+.form-button {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 12px 650px 100px 650px;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+ .homepage-indicator {
+   display: none
+ }
+
+ [placeholder*="Write"] {
+  color: #b3bac5;
+}
+
+.button {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  padding: 5px 8px;
+  text-align: center;
+  color: #396df2;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  /* margin-left: -180px; */
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  background-color: #c1c7d0;
+  color: #5e6c84;
+}
+
+
+.footer-background-shapes {
+  position: relative;
+  margin-top: 120px;
+}
+
+.ellipse-3-footer {
+  position: absolute;
+  left: 328px;
+  top: -120px;
+}
+
+.ellipse-5-footer {
+  position: absolute;
+  left: 253.28px;
+  top: 490px;
+}
+
+.ellipse-12-footer {
+  position: absolute;
+  left: 153px;
+  top: -120px;
+}
+
+.rect-4-footer {
+  position: absolute;
+  left: 310px;
+  top: -150px;
+}
+
+.rect-7-footer {
+  position: absolute;
+  left: 251.8px;
+  top: 460px;
+}
 
 }
