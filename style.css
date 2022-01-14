@@ -472,13 +472,19 @@ ul > li > i {
     .logo {
       width: 100px;
       height: 40px;
+      /* padding: 10px 12px; */
+      margin: 25px 0 0 155px;
     }
 
     .item-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       text-decoration: none;
       width: 259px;
       height: 40px;
       display: flex;
+      margin-right: 142px;
     }
 
 
@@ -492,5 +498,156 @@ ul > li > i {
       background-image: url(images/Header-bg.svg);
       background-repeat: no-repeat;
     }
+
+    li {
+      list-style-type: none;
+      text-decoration: none;
+    }
   
+    .headline h1 {
+      width: 920px;
+      height: 122px;
+      margin: 200px 260px 0 260px;
+    }
+
+    .presentation {
+      width: 920px;
+      height: 98px;
+      font-size: 20px;
+      line-height: 28px;
+      padding: 0px 260px;
+      margin: 12px 0 0 0;
+
+    }
+
+    .connect {
+      height: 24px;
+      padding: 0 260px;
+      margin: 12px 0;
+
+    }
+
+    .social-media {
+      width: 170.17px;
+      height: 20px;
+      padding: 0 260px;
+      margin: 12px 0;
+    }
+
+    .works {
+      width: 1440px;
+      /* height: 2694px; */
+      align-items: center;
+      padding: 142px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      background-color: #e5e5e5;
+      grid-gap: 88px;
+    }
+
+    .work-card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 1px solid #dfe1e6;
+      margin: auto;
+      padding: 16px;
+      border-radius: 24px;
+      width: 1156px;
+      height: 496px;
+      background: #fff;
+    }
+
+    .profile-image {
+      margin: 12px 0;
+      width: 544px;
+      height: 448px;
+    }
+
+    .left-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px 22px;
+
+    }
+
+    .project-title {
+      width: 496px;
+      height: 46px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      margin: 20px 46px;
+    }
+.language-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 297px;
+  height: 40px;
+  margin-left: 46px;
+}
+
+.credentials-list {
+  height: 40px;
+  align-items: center;
+
+}
+
+.language-list li {
+  background-color: red;
+  align-items: center;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+ .description {
+   width: 496px;
+   height: 50px;
+   font-size: 16px;
+   line-height: 24px;
+ }
+
+ .about-myself {
+   width: 1440px;
+   height: 924px;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .myself-left-block {
+   width: 447px;
+   height: 114px;
+   margin-top: 142px;
+   margin-left: 142px;
+  
+ }
+
+ .about-myself-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+ }
+
+ .my-profile {
+   width: 447px;
+   height: 102px;
+   font-size: 16px;
+   line-height: 24px;
+   margin: 12px 0;
+   text-align: justify;
+ }
+
+ .skill.list {
+   background-color: red;
+ }
+
+ .contact-me-icons {
+ 
+   width: 200px;
+   height: 40px;
+   margin-left: -240px;
+ }
 }
