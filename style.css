@@ -36,6 +36,10 @@ li {
   list-style-type: none;
 }
 
+.item-navigation {
+  display: none;
+}
+
 .logo {
   flex: 1;
   text-decoration: none;
@@ -91,11 +95,12 @@ li {
 .social-media {
   display: flex;
   width: 171px;
-  margin-left: -30px;
+  margin-left: -15px;
 }
 
 .flex-icons {
   flex: 1;
+  margin-left: -10px;
 }
 
 .button {
@@ -173,7 +178,7 @@ button:disabled {
   display: flex;
   color: hsl(234, 100%, 69%);
   width: 203px;
-  margin-left: -120px;
+  margin-left: -50px;
 }
 
 .language-list li {
@@ -189,7 +194,7 @@ button:disabled {
   padding: 0;
   height: 32px;
   width: 236px;
-  margin: 12px 0 12px -50px;
+  margin: 12px 0 12px 0;
   color: #344563;
   font-size: 13px;
   justify-content: space-between;
@@ -213,7 +218,7 @@ ul > li > i {
   display: flex;
   flex-direction: column;
   margin: 50px 0 24px 0;
-  height: 900px;
+  height: 1020px;
   background-color: #fff;
   border-top-right-radius: 70px;
   padding: 100px 0 10px 10px;
@@ -289,7 +294,7 @@ ul > li > i {
   display: flex;
   flex-direction: column;
   height: 779px;
-  margin-top: -150px;
+  margin-top: -200px;
   border-top-left-radius: 100px;
   background-color: #6070ff;
 }
