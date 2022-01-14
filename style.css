@@ -442,3 +442,55 @@ ul > li > i {
   margin-top: 22px;
   text-align: center;
 }
+
+@media only screen and (min-width: 992px) {
+
+  body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #e5e5e5;
+      display: grid;
+      grid-template-areas:
+        "header"
+        "works"
+        "footer";
+
+    }
+
+    header {
+      grid-template-areas: header;
+      width: 1444px;
+      height: 916px;
+      background-color: #fff;
+    }
+
+    .top-navigation {
+      width: 1440px;
+      height: 72px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 40px;
+    }
+
+    .item-navigation {
+      text-decoration: none;
+      width: 259px;
+      height: 40px;
+      display: flex;
+    }
+
+
+    [alt*="hamburger"] {
+      display: none;
+    }
+
+    .headline {
+      width: 1440px;
+      height: 721.46px;
+      background-image: url(images/Header-bg.svg);
+      background-repeat: no-repeat;
+    }
+  
+}
