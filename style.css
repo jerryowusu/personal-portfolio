@@ -640,14 +640,48 @@ ul > li > i {
    text-align: justify;
  }
 
- .skill.list {
-   background-color: red;
- }
-
  .contact-me-icons {
  
-   width: 200px;
-   height: 40px;
-   margin-left: -240px;
- }
+  width: 200px;
+  height: 40px;
+  margin-left: -240px;
+}
+
+ .skill-list {
+  width: 684px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 142px;
+  margin-left: 25px;
+  margin-right: 142px;
+}
+
+.frame {
+  width: 684px;
+  border-bottom: 1px solid #dfe1e6;
+  padding: 24px 0;
+}
+
+/* .frame-summary {
+  list-style-type: none;
+  padding-left: 12px;
+  background-image: url(images/chevron-right.svg);
+  background-repeat: no-repeat;
+  background-position: 279px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.frame[open] .frame-summary {
+  list-style-type: none;
+  padding-left: 12px;
+  background-image: url(images/chevron-down.svg);
+  background-repeat: no-repeat;
+} */
+
+
 }
