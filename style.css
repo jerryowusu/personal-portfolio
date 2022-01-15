@@ -36,6 +36,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .item-navigation {
   display: none;
 }
@@ -137,6 +141,10 @@ button:disabled {
   grid-template-columns: repeat(1, 1fr);
   background-color: #e5e5e5;
   grid-gap: 88px;
+}
+
+.alt-image2 {
+  display: none;
 }
 
 .work-card {
@@ -495,6 +503,7 @@ ul > li > i {
     width: 259px;
     height: 40px;
     margin-right: 142px;
+    color: #344563;
   }
 
   [alt*="hamburger"] {
@@ -517,6 +526,10 @@ ul > li > i {
     width: 920px;
     height: 122px;
     margin: 200px 260px 0 260px;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 60px;
   }
 
   .presentation {
@@ -526,6 +539,7 @@ ul > li > i {
     line-height: 28px;
     padding: 0 260px;
     margin: 12px 0 0 0;
+    color: #344563;
   }
 
   .connect {
@@ -551,6 +565,14 @@ ul > li > i {
     grid-gap: 88px;
   }
 
+  .alt-image1 {
+    display: none;
+  }
+
+  .alt-image2 {
+    display: block;
+  }
+
   .work-card {
     display: flex;
     flex-direction: row;
@@ -570,7 +592,7 @@ ul > li > i {
   }
 
   .profile-image {
-    margin: 12px 0;
+    margin: 20px 0 20px 20px;
     width: 544px;
     height: 448px;
   }
@@ -579,7 +601,7 @@ ul > li > i {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px 22px;
+    margin: -80px 46px 20px 48px;
   }
 
   .project-title {
@@ -588,7 +610,6 @@ ul > li > i {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    margin: 20px;
   }
 
   .language-list {
@@ -609,6 +630,8 @@ ul > li > i {
     background-color: #ebebff;
     border-radius: 8px;
     font-weight: 500;
+    height: 30px;
+    padding: 0;
   }
 
   .description {
