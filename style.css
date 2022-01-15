@@ -284,6 +284,7 @@ ul > li > i {
   margin: 12px;
   border-radius: 8px;
   align-items: center;
+  background-color: #f7f7f9;
 }
 
 .language-frame img {
@@ -627,7 +628,6 @@ ul > li > i {
 
   .language-list li {
     align-items: center;
-    background-color: #ebebff;
     border-radius: 8px;
     font-weight: 500;
     height: 30px;
