@@ -12,6 +12,8 @@ HTML5 and CSS3 linters
 ## Getting Started
 You can clone and open with vs code or any code editor of your choice.
 
+![alt text](images/my-portfolio.png)
+
 ## AUTHOR
  Jerry Owusu
 GitHub: [@jerryowusu](https://github.com/jerryowusu)
