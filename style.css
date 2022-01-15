@@ -784,31 +784,35 @@ button:disabled {
   margin-top: 120px;
 }
 
-.ellipse-3-footer {
+.ellipse-3 {
   position: absolute;
   left: 328px;
   top: -120px;
 }
 
-.ellipse-5-footer {
+.ellipse-5 {
   position: absolute;
   left: 253.28px;
   top: 490px;
 }
 
-.ellipse-12-footer {
+.ellipse-12 {
   position: absolute;
-  left: 153px;
-  top: -120px;
+  width: 27px;
+  height: 27px;
+  left: 470px;
+  top: 115px;
 }
 
-.rect-4-footer {
+.rectangle-4 {
+  width: 107.2px;
+  height: 24.7px;
   position: absolute;
-  left: 310px;
-  top: -150px;
-}
+  left: 1211.59px;
+  top: 80px;
+ }
 
-.rect-7-footer {
+.rectangle-7 {
   position: absolute;
   left: 251.8px;
   top: 460px;
