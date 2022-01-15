@@ -454,12 +454,11 @@ ul > li > i {
         "header"
         "works"
         "contact-me";
-
     }
 
     header {
       grid-template-areas: header;
-      width: 1444px;
+      width: 100%;
       height: 916px;
       background-color: #fff;
     }
@@ -516,14 +515,12 @@ ul > li > i {
       line-height: 28px;
       padding: 0px 260px;
       margin: 12px 0 0 0;
-
     }
 
     .connect {
       height: 24px;
       padding: 0 260px;
       margin: 12px 0;
-
     }
 
     .social-media {
@@ -535,7 +532,7 @@ ul > li > i {
 
     .works {
       grid-template-areas: works;
-      width: 1440px;
+      width: 1156px;
       align-items: center;
       padding: 142px;
       display: grid;
@@ -573,7 +570,6 @@ ul > li > i {
       flex-direction: column;
       align-items: flex-start;
       padding: 24px 22px;
-
     }
 
     .project-title {
@@ -613,7 +609,7 @@ ul > li > i {
  }
 
  .about-myself {
-   width: 1440px;
+   width: 100%;
    height: 924px;
    display: flex;
    flex-direction: row;
@@ -623,8 +619,7 @@ ul > li > i {
    width: 447px;
    height: 114px;
    margin-top: 142px;
-   margin-left: 142px;
-  
+   margin-left: 142px;  
  }
 
  .about-myself-title {
@@ -666,28 +661,9 @@ ul > li > i {
   padding: 24px 0;
 }
 
-/* .frame-summary {
-  list-style-type: none;
-  padding-left: 12px;
-  background-image: url(images/chevron-right.svg);
-  background-repeat: no-repeat;
-  background-position: 279px;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.frame[open] .frame-summary {
-  list-style-type: none;
-  padding-left: 12px;
-  background-image: url(images/chevron-down.svg);
-  background-repeat: no-repeat;
-} */
-
 .contact-me {
   grid-template-areas: contact-me;
-  width: 1440px;
+  width: 100%;
   height: 846px;
   background-color: #6070ff;
 }
@@ -833,6 +809,24 @@ button:disabled {
 }
 
 .rect-7-footer {
+  position: absolute;
+  left: 251.8px;
+  top: 460px;
+}
+
+.rectangle-6 {
+  position: absolute;
+  left: 251.8px;
+  top: 460px;
+}
+
+.ellipse-13 {
+  position: absolute;
+  left: 251.8px;
+  top: 460px;
+}
+
+.ellipse-11 {
   position: absolute;
   left: 251.8px;
   top: 460px;
