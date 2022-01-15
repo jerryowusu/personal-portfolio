@@ -453,7 +453,7 @@ ul > li > i {
       grid-template-areas:
         "header"
         "works"
-        "footer";
+        "contact-me";
 
     }
 
@@ -472,7 +472,6 @@ ul > li > i {
     .logo {
       width: 100px;
       height: 40px;
-      /* padding: 10px 12px; */
       margin: 25px 0 0 155px;
     }
 
@@ -535,8 +534,8 @@ ul > li > i {
     }
 
     .works {
+      grid-template-areas: works;
       width: 1440px;
-      /* height: 2694px; */
       align-items: center;
       padding: 142px;
       display: grid;
@@ -556,6 +555,11 @@ ul > li > i {
       width: 1156px;
       height: 496px;
       background: #fff;
+    }
+
+    .reverse-card {
+      display: flex;
+      flex-direction: row-reverse;
     }
 
     .profile-image {
@@ -578,7 +582,7 @@ ul > li > i {
       font-weight: 700;
       font-size: 40px;
       line-height: 52px;
-      margin: 20px 46px;
+      margin: 20px ;
     }
 .language-list {
   display: flex;
@@ -586,7 +590,6 @@ ul > li > i {
   align-items: center;
   width: 297px;
   height: 40px;
-  margin-left: 46px;
 }
 
 .credentials-list {
@@ -596,7 +599,6 @@ ul > li > i {
 }
 
 .language-list li {
-  background-color: red;
   align-items: center;
   background-color: #ebebff;
   border-radius: 8px;
@@ -684,6 +686,7 @@ ul > li > i {
 } */
 
 .contact-me {
+  grid-template-areas: contact-me;
   width: 1440px;
   height: 846px;
   background-color: #6070ff;
@@ -778,7 +781,10 @@ ul > li > i {
   background-color: #fff;
   border: 1px solid #396df2;
   border-radius: 8px;
-  /* margin-left: -180px; */
+}
+
+.work-button {
+  margin-left: 0;
 }
 
 button:hover {
