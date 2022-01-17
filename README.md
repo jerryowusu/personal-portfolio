@@ -7,7 +7,7 @@ Font awesome
 HTML5 and CSS3 linters
 
 ## LIVE DEMO
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jerryowusu.github.io/personal-portfolio/)
 
 ## Getting Started
 You can clone and open with vs code or any code editor of your choice.
