@@ -1,8 +1,18 @@
 {
     "cSpell.words": [
+        "autorun",
+        "hintrc",
         "jerryowusu",
+        "lhci",
+        "linebreak",
         "Microverse",
-        "Owusu"
+        "Mult",
+        "Owusu",
+        "Sript",
+        "stylelint",
+        "stylelintrc",
+        "tanne",
+        "webhint"
     ],
     "liveServer.settings.port": 5501
 }

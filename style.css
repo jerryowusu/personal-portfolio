@@ -41,8 +41,10 @@ a {
 }
 
 .item-navigation {
-  display: none;
+  display: none; 
 }
+
+
 
 .logo {
   flex: 1;
