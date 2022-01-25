@@ -25,19 +25,29 @@
     <header>
         <nav class="top-navigation">
           <a class="logo">My Logo</a>
-          <img src="images/sandwich.svg" alt="hamburger">
-          <ul class="item-navigation">
+          <img src="images/sandwich.svg" id="hamburger" class="show-menu-btn"  alt="hamburger">
+          <ul class="nav-menu">
               <li>
-                  <a href="#">Portfolio</a>
+                  <a href="#portfolio">Portfolio</a>
               </li>
              <li>
-                 <a href="#">About</a>
+                 <a href="#about">About</a>
              </li> 
               <li>
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
               </li>
           </ul>
          </nav>
+         <nav class="nav navbar-mobile hidden">
+            <div class="navbar-close-menu">
+                <img src="images/Icon-Cancel.svg" class="close-menu-btn" alt="close-menu">
+            </div>
+            <ul class="mobile-nav-menu">
+                <li><a class="list-menu" href="#portfolio">Portfolio</a></li>
+                <li><a class="list-menu" href="#about">About</a></li>
+                <li><a class="list-menu" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <section class="headline">
              <h1>I'm Jerry <br> Glad to see you!</h1>
              <p class="presentation">I’m a software developer! I can help you build a product ,
@@ -65,7 +75,7 @@
         </section>
       </header>
     <main>    
-     <div class="works">
+     <div class="works " id="portfolio">
         <section class="work-card "> 
                 <img class="profile-image alt-image1" src="images/tanne-chris.png" alt="tanne chris" width="295"
                     height="220">
@@ -167,7 +177,7 @@
                 </div>
         </section>
      </div>
-     <section class="about-myself">
+     <section class="about-myself" id="about">
          <div class="myself-left-block">
             <h2 class="about-myself-title">About <br> Myself</h2>
             <p class="my-profile">
@@ -218,7 +228,7 @@
         </details>
     </div>
     </section>     
-     <section class="contact-me">           
+     <section class="contact-me" id="contact">           
           <h2>Contact me</h2>
           <p class="form-text">
                If you have an application you are interested in developing,
@@ -236,6 +246,7 @@
             </form>
      </section>
     </main>
+    <script src="main.js" ></script>
 </body>
 
 </html>
