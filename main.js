@@ -1,5 +1,5 @@
 const html = document.getElementsByTagName('html')[0];
-const navMenu = document.querySelector('.nav-menu');
+const navMenu = document.querySelector('.item-navigation');
 const showBtn = document.querySelector('nav .show-menu-btn');
 const closedBtn = document.querySelector('nav .close-menu-btn');
 const navlinks = document.querySelectorAll('nav ul li');
