@@ -32,6 +32,45 @@ nav img {
   display: block;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar-mobile {
+  display: block;
+  position: fixed;
+  background-color: #6070ff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.92;
+  width: 375px;
+  height: 812px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.close-menu-btn {
+  margin-left: 300px;
+  margin-top: 33px;
+}
+
+.list-menu {
+  display: block;
+  color: #fff;
+  width: 251px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 40px;
+}
+
 li {
   list-style-type: none;
 }

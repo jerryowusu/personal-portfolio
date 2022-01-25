@@ -5,28 +5,15 @@ const closedBtn = document.querySelector('nav .close-menu-btn');
 const navlinks = document.querySelectorAll('nav ul li');
 
 function showMenu() {
-  navMenu.classList.add('open');
-  navMenu.classList.remove('hide');
-  setTimeout(() => {
-    closedBtn.style.display = 'block';
-  }, 1000); html.style.overflow = 'hidden';
+  nav.classList.add('navbar-mobile');
 }
 
 function closeMenu() {
-  navMenu.classList.remove('open');
-  navMenu.classList.add('hide'); setTimeout(() => {
-    closedBtn.style.display = 'none';
-  }, 500); html.style.overflow = 'auto';
+  nav.classList.remove('navbar-mobile');
 }
 
-function directMenu() {
-  navMenu.classList.remove('open');
-  closedBtn.style.display = 'none';
-  html.style.overflow = 'auto';
-}
-
-navlinks.forEach((link) => {
-  link.addEventListener('click', directMenu);
+listMenu.forEach((link) => {
+  link.addEventListener('click', closeMenu);
 });
 
 showBtn.addEventListener('click', showMenu);
