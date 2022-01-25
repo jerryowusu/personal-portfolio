@@ -25,8 +25,8 @@
     <header>
         <nav class="top-navigation">
           <a class="logo">My Logo</a>
-          <img src="images/sandwich.svg" alt="hamburger">
-          <ul class="item-navigation">
+          <img src="images/sandwich.svg" id="hamburger" class="show-menu-btn"  alt="hamburger">
+          <ul class="nav-menu">
               <li>
                   <a href="#portfolio">Portfolio</a>
               </li>
@@ -38,6 +38,16 @@
               </li>
           </ul>
          </nav>
+         <nav class="nav navbar-mobile hidden">
+            <div class="navbar-close-menu">
+                <img src="images/Icon-Cancel.svg" class="close-menu-btn" alt="close-menu">
+            </div>
+            <ul class="mobile-nav-menu">
+                <li><a class="list-menu" href="#portfolio">Portfolio</a></li>
+                <li><a class="list-menu" href="#about">About</a></li>
+                <li><a class="list-menu" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <section class="headline">
              <h1>I'm Jerry <br> Glad to see you!</h1>
              <p class="presentation">I’m a software developer! I can help you build a product ,

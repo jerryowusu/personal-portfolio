@@ -1,32 +1,20 @@
-const html = document.getElementsByTagName('html')[0];
-const navMenu = document.querySelector('.nav-menu');
-const showBtn = document.querySelector('nav .show-menu-btn');
-const closedBtn = document.querySelector('nav .close-menu-btn');
-const navlinks = document.querySelectorAll('nav ul li');
+// const navMenu = document.querySelector('.mobile-nav-menu');
+// const navbarMobile = document.querySelector('.navbar-mobile');
+const nav = document.querySelector('.nav');
+const showBtn = document.querySelector('#hamburger');
+const closedBtn = document.querySelector('.close-menu-btn');
+const listMenu = document.querySelectorAll('.list-menu');
 
 function showMenu() {
-  navMenu.classList.add('open');
-  navMenu.classList.remove('hide');
-  setTimeout(() => {
-    closedBtn.style.display = 'block';
-  }, 1000); html.style.overflow = 'hidden';
+  nav.classList.add('navbar-mobile');
 }
 
 function closeMenu() {
-  navMenu.classList.remove('open');
-  navMenu.classList.add('hide'); setTimeout(() => {
-    closedBtn.style.display = 'none';
-  }, 500); html.style.overflow = 'auto';
+  nav.classList.remove('navbar-mobile');
 }
 
-function directMenu() {
-  navMenu.classList.remove('open');
-  closedBtn.style.display = 'none';
-  html.style.overflow = 'auto';
-}
-
-navlinks.forEach((link) => {
-  link.addEventListener('click', directMenu);
+listMenu.forEach((link) => {
+  link.addEventListener('click', closeMenu);
 });
 
 showBtn.addEventListener('click', showMenu);

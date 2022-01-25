@@ -19,6 +19,8 @@ header {
   background-repeat: no-repeat;
 }
 
+
+
 nav {
   padding-top: 25px;
   padding-left: 20px;
@@ -32,16 +34,51 @@ nav img {
   display: block;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+  
+.navbar-mobile {  
+  display: block;
+  position: fixed;
+  background-color: #6070ff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.92;
+  width: 375px;
+  height: 812px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.close-menu-btn {
+  margin-left: 300px;
+  margin-top: 33px;
+}
+
+.list-menu {
+  display: block;
+  color: #fff;
+  width: 251px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 40px;
+  }
+
 li {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
-}
-
-.item-navigation {
-  display: none;
 }
 
 .logo {
@@ -431,6 +468,7 @@ ul > li > i {
   text-align: center;
 }
 
+
 @media only screen and (min-width: 992px) {
   body {
     font-family: 'Poppins', sans-serif;
@@ -455,7 +493,8 @@ ul > li > i {
     margin: 25px 0 0 155px;
   }
 
-  .item-navigation {
+  
+  .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
