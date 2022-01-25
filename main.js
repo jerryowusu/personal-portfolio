@@ -1,5 +1,3 @@
-// const navMenu = document.querySelector('.mobile-nav-menu');
-// const navbarMobile = document.querySelector('.navbar-mobile');
 const nav = document.querySelector('.nav');
 const showBtn = document.querySelector('#hamburger');
 const closedBtn = document.querySelector('.close-menu-btn');
