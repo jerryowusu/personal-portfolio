@@ -32,15 +32,11 @@ nav img {
   display: block;
 }
 
-.nav-menu {
-  display: none;
-}
-
 .hidden {
   display: none;
 }
 
-.navbar-mobile {
+/* .navbar-mobile {
   display: block;
   position: fixed;
   background-color: #6070ff;
@@ -69,7 +65,7 @@ nav img {
   font-size: 32px;
   line-height: 44px;
   margin-top: 40px;
-}
+} */
 
 li {
   list-style-type: none;
