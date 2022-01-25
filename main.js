@@ -19,7 +19,7 @@ function closeMenu() {
   setTimeout(() => {
     closedBtn.style.display = 'none';
   }, 500);
-  html.style.overflow = 'auto'
+  html.style.overflow = 'auto';
 }
 
 function directMenu() {
