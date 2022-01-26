@@ -1,36 +1,20 @@
-const html = document.getElementsByTagName('html')[0];
-const navMenu = document.querySelector('.item-navigation');
-const showBtn = document.querySelector('nav .show-menu-btn');
-const closedBtn = document.querySelector('nav .close-menu-btn');
-const navlinks = document.querySelectorAll('nav ul li');
+const mobileMenu = document.querySelector('.mobile-menu');
+const linksInMobileMenu = document.querySelectorAll('.mobile-menu-content li a');
+const openButton = document.getElementById('open-button');
+const closeButton = document.getElementById('close-button');
 
-function showMenu() {
-  navMenu.classList.add('open');
-  navMenu.classList.remove('hide');
-  setTimeout(() => {
-    closedBtn.style.display = 'block';
-  }, 900);
-  html.style.overflow = 'hidden';
-}
-
-function closeMenu() {
-  navMenu.classList.remove('open');
-  navMenu.classList.add('hide');
-  setTimeout(() => {
-    closedBtn.style.display = 'none';
-  }, 500);
-  html.style.overflow = 'auto';
-}
-
-function directMenu() {
-  navMenu.classList.remove('open');
-  closedBtn.style.display = 'none';
-  html.style.overflow = 'auto';
-}
-
-navlinks.forEach((link) => {
-  link.addEventListener('click', directMenu);
+openButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  mobileMenu.style.display = 'block';
 });
 
-showBtn.addEventListener('click', showMenu);
-closedBtn.addEventListener('click', closeMenu);
+closeButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  mobileMenu.style.display = 'none';
+});
+
+linksInMobileMenu.forEach((link) => {
+  link.addEventListener('click', () => {
+    mobileMenu.style.display = 'none';
+  });
+});
