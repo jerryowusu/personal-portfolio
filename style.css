@@ -19,24 +19,6 @@ header {
   background-repeat: no-repeat;
 }
 
-
-/* nav a:link,
-nav a:visited,
-nav a:hover,
-nav a:active {
-  color: #6070ff;
-}
-
-.desktop-menu a:active,
-.desktop-menu a:visited {
-  color: #344563;
-}
-
-.desktop-menu a:hover,
-.desktop-menu a:link {
-  color: #6070ff;
-} */
-
 nav {
   padding-top: 25px;
   padding-left: 20px;
@@ -348,8 +330,6 @@ nav .close-menu-btn {
 
 .project-details-color { color: #6b7687; }
 
-.blank-space { height: 50px; }
-
 #popup-window {
   max-height: 100vh;
 }
@@ -610,12 +590,7 @@ nav .close-menu-btn {
 }
 
 @media (min-width: 992px) {
-  /* body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    background-color: #e5e5e5;
-  } */
-
+ 
   header {
     width: 100%;
     height: 916px;
@@ -753,91 +728,6 @@ nav .close-menu-btn {
   .headline {
     padding: 0 20%;
   }
-
-  /* .works {
-    width: 1156px;
-    align-items: center;
-    padding: 142px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    background-color: #e5e5e5;
-    grid-gap: 88px;
-  }
-
-  .alt-image1 {
-    display: none;
-  }
-
-  .alt-image2 {
-    display: block;
-  }
-
-  .work-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid #dfe1e6;
-    margin: auto;
-    padding: 16px;
-    border-radius: 24px;
-    width: 1156px;
-    height: 496px;
-    background: #fff;
-  }
-
-  .reverse-card {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .profile-image {
-    margin: 20px 0 20px 20px;
-    width: 544px;
-    height: 448px;
-  }
-
-  .left-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: -80px 46px 20px 48px;
-  }
-
-  .project-title {
-    width: 496px;
-    height: 46px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  .language-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 297px;
-    height: 40px;
-  }
-
-  .credentials-list {
-    height: 40px;
-    align-items: center;
-  }
-
-  .language-list li {
-    align-items: center;
-    border-radius: 8px;
-    font-weight: 500;
-    height: 30px;
-    padding: 0;
-  }
-
-  .description {
-    width: 496px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 24px;
-  } */
 
   .about-myself {
     width: 100%;
@@ -986,5 +876,4 @@ nav .close-menu-btn {
   [placeholder*="Write"] {
     color: #b3bac5;
   }
-
 }
