@@ -13,7 +13,7 @@ const works = [
     imageURL: '../images/project2-snapshot.svg',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     liveURL: '#',
-    sourceURL: 'https://github.com/jerryowusu/',      
+    sourceURL: 'https://github.com/jerryowusu/',
   },
   {
     name: 'Facebook 360',
@@ -33,24 +33,25 @@ const works = [
   },
 ];
 
-const projectSection = document.getElementById('portfolio')
+const projectSection = document.getElementById('portfolio');
 
-works.forEach((work) => { let techs = '';
-
- work.technologies.forEach((tech) => { techs += `<li class="tag">${tech}</li>`; });
- 
- projectSection.innerHTML += `<div class="card"> <div class="project-image"> <img src="${work.imageURL}" alt="${work.name} Screenshot"> </div> <div class="project-description"> <h3>${work.name}</h3> <div class="project-details"> <p>CANOPY</p> <p class="dot">&#x2B24;</p> <p class="project-details-color">Back End Dev</p> <p class="dot">&#x2B24;</p> <p class="project-details-color">2015</p> </div> <p>${work.description}</p> <ul class="tags-section"> ${techs} </ul> <input class="alignment-start button" type="button" value="See Project" id="${work.name}"> </div> </div> `; }); 
-
-
- works.forEach((work) => {
+works.forEach((work) => {
   let techs = '';
-  
+
   work.technologies.forEach((tech) => { techs += `<li class="tag">${tech}</li>`; });
-  
+
+  projectSection.innerHTML += `<div class="card"> <div class="project-image"> <img src="${work.imageURL}" alt="${work.name} Screenshot"> </div> <div class="project-description"> <h3>${work.name}</h3> <div class="project-details"> <p>CANOPY</p> <p class="dot">&#x2B24;</p> <p class="project-details-color">Back End Dev</p> <p class="dot">&#x2B24;</p> <p class="project-details-color">2015</p> </div> <p>${work.description}</p> <ul class="tags-section"> ${techs} </ul> <input class="alignment-start button" type="button" value="See Project" id="${work.name}"> </div> </div> `;
+});
+
+works.forEach((work) => {
+  let techs = '';
+
+  work.technologies.forEach((tech) => { techs += `<li class="tag">${tech}</li>`; });
+
   document.getElementById(work.name).addEventListener(
     'click', () => {
       document.body.style.overflow = 'hidden';
-  
+
       document.getElementById('popup-window').innerHTML
         += `<div class="blended-background"></div>
         <div class="popup-window-content">
@@ -83,7 +84,7 @@ works.forEach((work) => { let techs = '';
                 </div>
             </div>
         </div>`;
-  
+
       document.getElementById('popup-close-button').addEventListener(
         'click', (event) => {
           event.preventDefault();
@@ -93,5 +94,4 @@ works.forEach((work) => { let techs = '';
       );
     },
   );
-  });
-  
+});

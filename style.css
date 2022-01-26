@@ -12,7 +12,6 @@ body {
   background-color: whitesmoke;
 }
 
-
 nav {
   padding-inline: 7%;
   display: flex;
@@ -233,7 +232,6 @@ h3 {
   margin-right: 20px;
 }
 
-
 .about-section {
   border-top-right-radius: 80px;
   background-color: white;
@@ -335,12 +333,9 @@ textarea::placeholder {
   color: #b3bac5;
 }
 
-.heading-color { color: #172b4d; }
-
 .project-details-color { color: #6b7687; }
 
 .blank-space { height: 50px; }
-
 
 .works-section {
   display: grid;
@@ -415,12 +410,7 @@ textarea::placeholder {
   transform: rotate(-15deg);
 }
 
-
 .heading-color { color: #172b4d; }
-
-.project-details-color { color: #6b7687; }
-
-.blank-space { height: 50px; }
 
 #popup-window {
   max-height: 100vh;
@@ -547,9 +537,7 @@ textarea::placeholder {
   outline: none;
 }
 
-
 @media (min-width: 992px) {
-  
   .headline {
     padding: 0 20%;
   }
@@ -608,7 +596,6 @@ textarea::placeholder {
     font-size: 18px;
   }
 
-  
   .project-details {
     font-size: 18px;
   }
@@ -622,4 +609,3 @@ textarea::placeholder {
     flex-direction: row;
   }
 }
-
