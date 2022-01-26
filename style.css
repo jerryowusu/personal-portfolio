@@ -12,7 +12,6 @@ body {
   background-color: whitesmoke;
 }
 
-
 nav {
   padding-inline: 7%;
   display: flex;
@@ -233,7 +232,6 @@ h3 {
   margin-right: 20px;
 }
 
-
 .about-section {
   border-top-right-radius: 80px;
   background-color: white;
@@ -341,7 +339,6 @@ textarea::placeholder {
 
 .blank-space { height: 50px; }
 
-
 .button {
   font-size: 17px;
   color: #5867eb;
@@ -414,9 +411,7 @@ textarea::placeholder {
   outline: none;
 }
 
-
 @media (min-width: 992px) {
-  
   .headline {
     padding: 0 20%;
   }
@@ -475,4 +470,3 @@ textarea::placeholder {
     font-size: 18px;
   }
 }
-
