@@ -314,6 +314,12 @@ i {
   margin-top: 40px;
 }
 
+.email-error {
+  color: yellow;
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+}
+
 input,
 textarea {
   padding: 15px;
