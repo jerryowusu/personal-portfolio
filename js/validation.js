@@ -13,7 +13,7 @@ form.addEventListener('submit', (event) => {
       errorMessage.innerText = '';
     }, 5000);
     event.preventDefault();
-}
+  }
 
   else {
     form.submit();
