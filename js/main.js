@@ -18,3 +18,18 @@ linksInMobileMenu.forEach((link) => {
     mobileMenu.style.display = 'none';
   });
 });
+
+
+const button = document.querySelector('form .button');
+
+const localStorageData = () => {
+  const formData = {
+    name: document.querySelector('#name').value,
+    email: document.querySelector('#email').value,
+    message: document.querySelector('#message').value
+  }
+
+  localStorage.setItem('formData', JSON.stringify(formData))
+}
+
+button.addEventListener('click', localStorageData)
