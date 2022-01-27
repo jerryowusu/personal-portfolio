@@ -315,10 +315,9 @@ i {
 }
 
 .email-error {
-  color: rgb(241, 127, 127);
-  font-weight: bold;
-  text-align: center;
+  color:  yellow;
   font-size: 22px;
+  font-family:  Arial, sans-serif;
 }
 
 input,
