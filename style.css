@@ -314,6 +314,13 @@ i {
   margin-top: 40px;
 }
 
+.email-error {
+  color: rgb(241, 127, 127);
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
+
 input,
 textarea {
   padding: 15px;
