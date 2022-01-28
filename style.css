@@ -177,7 +177,7 @@ h3 {
   gap: 20px;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../images/header-background-mobile.svg');
+  background-image: url('./images/header-background-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -283,7 +283,7 @@ i {
   border-top-left-radius: 80px;
   background-color: #5867eb;
   padding: 114px 7% 50px;
-  background-image: url(images/contact-form-background-shapes.svg);
+  background-image: url('./images/contact-form-background-shapes.svg');
   background-repeat: no-repeat;
   background-position: top right;
 }
