@@ -40,7 +40,25 @@ works.forEach((work) => {
 
   work.technologies.forEach((tech) => { techs += `<li class="tag">${tech}</li>`; });
 
-  projectSection.innerHTML += `<div class="card"> <div class="project-image"> <img src="${work.imageURL}" alt="${work.name} Screenshot"> </div> <div class="project-description"> <h3>${work.name}</h3> <div class="project-details"> <p>CANOPY</p> <p class="dot">&#x2B24;</p> <p class="project-details-color">Back End Dev</p> <p class="dot">&#x2B24;</p> <p class="project-details-color">2015</p> </div> <p>${work.description}</p> <ul class="tags-section"> ${techs} </ul> <input class="alignment-start button" type="button" value="See Project" id="${work.name}"> </div> </div> `;
+  projectSection.innerHTML += `
+  <div class="card"> 
+  <div class="project-image">
+   <img src="${work.imageURL}" alt="${work.name} Screenshot">
+  </div>
+   <div class="project-description">
+    <h3>${work.name}</h3>
+    <div class="project-details"> 
+    <p>CANOPY</p>
+    <p class="dot">&#x2B24;</p> 
+    <p class="project-details-color">Back End Dev</p> 
+    <p class="dot">&#x2B24;</p> 
+    <p class="project-details-color">2015</p>
+   </div> 
+   <p>${work.description}</p> 
+   <ul class="tags-section"> ${techs} </ul>
+   <input class="alignment-start button" type="button" value="See Project" id="${work.name}">
+   </div> </div>
+    `;
 });
 
 works.forEach((work) => {
