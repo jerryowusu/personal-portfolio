@@ -1,11 +1,11 @@
 const works = [
   {
     name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageURL: './images/project1-snapshot.svg',
+    description: 'This "To-do-list" app is a simple web application that displays a list of tasks and allows you to add and remove tasks from that list.',
+    imageURL: './images/todo-list.png',
     technologies: ['html', 'css', 'javaScript'],
-    liveURL: '#',
-    sourceURL: 'https://github.com/jerryowusu/',
+    liveURL: 'https://jerryowusu.github.io/todo-list/',
+    sourceURL: 'https://github.com/jerryowusu/todo-list',
   },
   {
     name: 'Uber Navigation',
@@ -50,9 +50,9 @@ works.forEach((work) => {
     <div class="project-details"> 
     <p>CANOPY</p>
     <p class="dot">&#x2B24;</p> 
-    <p class="project-details-color">Back End Dev</p> 
+    <p class="project-details-color">Full Stack Dev</p> 
     <p class="dot">&#x2B24;</p> 
-    <p class="project-details-color">2015</p>
+    <p class="project-details-color">2022</p>
    </div> 
    <p>${work.description}</p> 
    <ul class="tags-section"> ${techs} </ul>
@@ -87,7 +87,7 @@ works.forEach((work) => {
                     </div>
                     <a href="" id="popup-close-button"><i class="fas fa-times"></i></a>
                 </div>
-                <img src="${work.imageURL}" alt="Work 4 Screenshot">
+                <img src="${work.imageURL}"  alt="Work 4 Screenshot">
                 <div class="project-description">
                     <p>${work.description}</p>
                     <div class="description-wrapper">
